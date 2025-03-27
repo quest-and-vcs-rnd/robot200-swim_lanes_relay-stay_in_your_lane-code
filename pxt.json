@@ -1,0 +1,27 @@
+{
+    "name": "Stay in Your Lane: R&D Proposal (25-0222-1900)",
+    "version": "0.1.7",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "23-1006-1820-RQ100-QuestCustomBlocks-Wukong-Oled": "github:jasonc1025-333/23-1006-1820-rq100-questcustomblocks-wukong-oled#v0.11.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.57",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
